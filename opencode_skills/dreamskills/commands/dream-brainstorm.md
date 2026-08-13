@@ -1,0 +1,1 @@
+Run the dream-brainstorm skill: listen, restate, ask 3-5 targeted questions (Adaptive Decision Ladder), present numbered options with rationale, then converge into an intent brief at `brainstorm/<slug>-brief.md` (problem/hypothesis/scope/AC/SM/Open Questions). Do not write spec or code until the user confirms the brief.

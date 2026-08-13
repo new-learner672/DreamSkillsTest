@@ -1,0 +1,1 @@
+Build the current change: run dream-plan (if tasks are not refined yet), then execute tasks one by one with dream-tdd (RED-GREEN-REFACTOR). Trigger dream-debug on any failure, dream-ui (with slop checklist) whenever UI is touched, and finish with a dream-verify gate report. Do not proceed past a red gate.

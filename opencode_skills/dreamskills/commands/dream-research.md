@@ -1,0 +1,1 @@
+Run the dream-research skill for the given topic: define RQs, collect from primary sources, build the comparison matrix, and write `research/<slug>.md`. Every factual conclusion must carry a source URL; unknown facts are marked [未证实]/[未找到]; never fabricate APIs, versions, or benchmarks. Research informs decisions but does not make them.

@@ -1,0 +1,1 @@
+Run the dream-git skill for committing the current change: check git status, exclude secrets/build artifacts, stage only related files, craft a Conventional Commits message (type(scope): subject, why in body), commit one logical change at a time, and verify with git log. Do not merge unless dream-verify and dream-review gates are green.

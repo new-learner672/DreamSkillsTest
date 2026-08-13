@@ -1,0 +1,1 @@
+Run the dream-verify quality gate on the current change: V-model four-layer checks, numeric thresholds (CWV/budget/a11y from references/quality-thresholds.md), and the guard second-pass review of AI failure patterns on the diff. Output the checkbox gate report and block merge on any red item.

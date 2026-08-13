@@ -1,0 +1,1 @@
+Create or work on a spec-driven change using the dream-spec skill. If a change name argument is provided, use it; otherwise infer from conversation or list existing changes under `changes/`. Follow the dream-spec workflow: proposal.md + delta specs + tasks.md, then present the CONFIRM gate to the user before any implementation.

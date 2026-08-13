@@ -1,0 +1,44 @@
+{
+  "name": "dreamskills",
+  "version": "1.7.0",
+  "description": "Dreamskills —— 规格驱动、设计系统化、验证闭环的一体化 vibecoding 技能集（20 个技能 + 13 数据域设计智能库 + 22 技术栈落地指南），原生兼容 Claude Code / OpenCode / Codex CLI",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "dreamskills": "./cli.mjs",
+    "dream": "./cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install": "node cli.mjs install",
+    "doctor": "node cli.mjs doctor"
+  },
+  "keywords": [
+    "vibecoding",
+    "claude-code",
+    "opencode",
+    "codex",
+    "agent-skills",
+    "skills",
+    "spec-driven-development",
+    "design-system",
+    "ai-coding"
+  ],
+  "dependencies": {},
+  "files": [
+    "cli.mjs",
+    "install.sh",
+    "install.ps1",
+    "scripts/",
+    "skills/",
+    "docs/",
+    "README.md",
+    "CHANGELOG.md",
+    "CLAUDE.md.example",
+    "AGENTS.md.example",
+    "DESIGN.md.example",
+    "plugin.json.example"
+  ]
+}

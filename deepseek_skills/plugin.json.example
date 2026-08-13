@@ -1,0 +1,32 @@
+{
+  "name": "dreamskills",
+  "version": "1.7.0",
+  "description": "Dreamskills —— 规格驱动、设计系统化、验证闭环的一体化 vibecoding 技能集（20 个原子化技能，含设计智能库与幻灯片/横幅专项设计）",
+  "author": {
+    "name": "Dreamskills Team"
+  },
+  "license": "MIT",
+  "homepage": "./README.md",
+  "skills": [
+    "./skills/dream-bootstrap",
+    "./skills/dream-spec-propose",
+    "./skills/dream-spec-implement",
+    "./skills/dream-brainstorm",
+    "./skills/dream-plan",
+    "./skills/dream-execute",
+    "./skills/dream-tdd",
+    "./skills/dream-debug",
+    "./skills/dream-git",
+    "./skills/dream-design-system",
+    "./skills/dream-ui-polish",
+    "./skills/dream-style-library",
+    "./skills/dream-slide-design",
+    "./skills/dream-banner-design",
+    "./skills/dream-review",
+    "./skills/dream-verify",
+    "./skills/dream-webapp-test",
+    "./skills/dream-perf-audit",
+    "./skills/dream-security-check",
+    "./skills/dream-skill-creator"
+  ]
+}

@@ -1,0 +1,1 @@
+Archive a completed change with the dream-spec workflow: merge delta specs into `specs/`, move the change to `archive/YYYY-MM-DD-<name>/`, and confirm the main specs reflect the current real state of the system.

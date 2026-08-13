@@ -1,0 +1,30 @@
+{
+  "name": "dreamskills",
+  "version": "1.0.0",
+  "description": "Dreamskills：整合 OpenSpec/Spec-Kit/Superpowers/UI UX Pro Max/Taste/Hallmark/Web-Quality/Guard/Waza 等顶级 vibecoding skills 优势的一体化技能体系，覆盖规格驱动、架构设计、UI 美学、前后台开发与验证测试全流程。",
+  "author": {
+    "name": "Dreamskills Contributors",
+    "url": "https://github.com/example/dreamskills"
+  },
+  "homepage": "https://github.com/example/dreamskills",
+  "repository": "https://github.com/example/dreamskills",
+  "license": "MIT",
+  "categories": [
+    "dev-tools",
+    "productivity"
+  ],
+  "keywords": [
+    "skill",
+    "spec-driven-development",
+    "tdd",
+    "ui-ux",
+    "architecture",
+    "verification",
+    "vibe-coding"
+  ],
+  "compatibility": {
+    "claude-code": ">=1.0.0",
+    "opencode": ">=0.1.0",
+    "codex-cli": ">=0.1.0"
+  }
+}

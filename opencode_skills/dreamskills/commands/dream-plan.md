@@ -1,0 +1,1 @@
+Plan implementation for the current change using the dream-plan skill: decompose delta specs into 2-5 minute tasks with acceptance criteria, explicit dependencies, and [P] parallel markers. Write the result into `changes/<name>/tasks.md` and present the task list for user confirmation.

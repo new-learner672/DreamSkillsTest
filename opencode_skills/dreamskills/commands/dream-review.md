@@ -1,0 +1,1 @@
+Review the current change with the dream-review skill: start a fresh-context two-phase review (spec compliance against delta Scenarios, then code quality), cite file:line evidence for every finding, and output a verdict of pass / needs-changes / reject.

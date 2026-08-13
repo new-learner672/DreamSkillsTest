@@ -1,0 +1,1 @@
+Run the dream-context skill: for resume, read task_plan.md/progress.md and emit a catchup summary (<=10 lines) for user confirmation; for learn, capture the user's correction into `.dreamskills/learnings.md` as a rule. Also flush the three plan files if a context clear or compaction is imminent.

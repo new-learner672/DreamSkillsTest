@@ -1,0 +1,31 @@
+{
+  "name": "dreamskills-cli",
+  "version": "1.0.0",
+  "description": "Dreamskills 终端部署工具：一键安装 13 个 vibecoding 技能到 opencode/codex/claude code（Windows/Linux/macOS，x64/arm64 全支持）",
+  "license": "MIT",
+  "bin": {
+    "dreamskills": "index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "assets/"
+  ],
+  "scripts": {
+    "prepack": "node lib/bundle-assets.js"
+  },
+  "keywords": [
+    "skills",
+    "vibecoding",
+    "opencode",
+    "codex",
+    "claude-code",
+    "spec-driven",
+    "tdd",
+    "ui-ux"
+  ],
+  "repository": "https://github.com/example/dreamskills"
+}

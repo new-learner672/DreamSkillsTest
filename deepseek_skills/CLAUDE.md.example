@@ -1,0 +1,32 @@
+# CLAUDE.md — 项目记忆与工作流（模板）
+
+> 使用方法：复制本文件到项目根目录，改名为 `CLAUDE.md`（或 `AGENTS.md`），并按项目实际填写。
+> 本模板由 Dreamskills 的 dream-bootstrap 技能自动生成/合并时参考。
+
+## 项目事实
+
+- 技术栈：（示例：Next.js 14 + TypeScript + Tailwind + Prisma + PostgreSQL）
+- 常用命令：
+  - 开发启动：（如 `npm run dev`）
+  - 构建：（如 `npm run build`）
+  - 测试：（如 `npm test` / `pytest`）
+  - Lint：（如 `npm run lint`）
+- 目录约定：（如 `src/app` 路由、`src/components` 组件、`prisma/` 数据层）
+- 环境与部署：（如 Node 20+、部署于 Vercel）
+
+## Dreamskills 工作流约定
+
+- 治理目录：`.dreamspec/`（specs 为唯一事实源；changes 为进行中提案；archive 为历史）
+- 强度模式：balanced（声明于 `.dreamspec/SKILLS.md`；可选 rigorous / light）
+- 变更纪律：任何功能/行为变更必须先 `dream-spec-propose`，确认后 `dream-spec-implement` 实施
+- 计划纪律：实施前先 `dream-plan`，计划落盘于提案的 `tasks.md`，逐块执行不跳块
+- 代码纪律：核心逻辑走 `dream-tdd`（红-绿-重构）；每完成一个逻辑块做原子提交（`dream-git`）
+- 设计纪律：一切 UI 遵循 `DESIGN.md` tokens（`dream-design-system`）；界面交付前过反 slop 自检（`dream-ui-polish`）
+- 交付纪律：宣称"完成"前必须通过 `dream-verify` 验证门并输出 PASS/FAIL 判决；FAIL 不得宣称完成
+- 质量门：验证证据 = 测试结果 + 构建结果 +（有 UI 时）浏览器 E2E +（性能敏感时）Lighthouse 指标 +（涉输入/权限/数据时）安全清单
+
+## 团队约定（按需补充）
+
+- 代码风格与命名：（如 prettier 配置、组件命名 PascalCase）
+- 分支与 PR 流程：（如 trunk-based、PR 需 review）
+- 与 Dreamskills 冲突时的优先级：（默认以项目既有规范为准，并在 `.dreamspec/SKILLS.md` 注明豁免）

@@ -1,0 +1,1 @@
+Initialize a Dreamskills spec-driven project: create `specs/` (with `constitution.md`), `changes/`, `archive/` directories, then use the dream-spec skill workflow. Announce the 6 default constitution articles and ask the user if they want to customize any before creating files.
